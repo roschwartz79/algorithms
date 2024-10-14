@@ -4,8 +4,12 @@ This is a repository that contains my own implementations for popular algorithms
 
 ## Projects
 
-- Selection Sort (O(N^2))
-- Recursion
+- Searching
+  - [Binary Search Tree](./binary-search)
+- Sorting
+  - [Quick Sort](./quick-sort)
+  - [Selection Sort](./selection-sort)
+
 
 
 ## Reference
