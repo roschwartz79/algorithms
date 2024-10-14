@@ -13,6 +13,33 @@ The steps for Quick Sort are as follows:
 4) Combine the sorted sub-arrays to get the final sorted array.
 5) Return the sorted array.
 
+Example:
+```
+Input: [5, 3, 9, 2, 7, 6, 8, 4]
+
+Choose 5 as the pivot element.
+
+Partition the array into two sub-arrays:
+[3, 2, 4] [5] [9, 7, 6, 8]
+
+Recursively sort the sub-arrays:
+[3, 2, 4] [5] [6, 7, 8, 9]
+
+Pick 7 as the pivot element from [9, 7, 6, 8].
+
+Partition the array into two sub-arrays:
+[6] [7] [9, 8]
+
+Our base case is when the sub-array has a length of 1.
+
+The sub-array [6] is already sorted.
+Pick 8 as the pivot element from [8, 9]. Partition the array.
+The sub-array [8] and [9] are already sorted.
+
+Assemble the sorted arrays when the recursive function calls return:
+[2, 3, 4] [5] [6, 7, 8, 9] 
+```
+
 A table of the runtime of Quick Sort is shown below:
 
 | Best Case  | Average Case | Worst Case |
