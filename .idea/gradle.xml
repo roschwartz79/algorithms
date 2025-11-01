@@ -5,11 +5,12 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="gradleJvm" value="temurin-21" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/binary-search" />
+            <option value="$PROJECT_DIR$/least-recently-used-cache" />
             <option value="$PROJECT_DIR$/quick-sort" />
             <option value="$PROJECT_DIR$/selection-sort" />
           </set>
